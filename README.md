@@ -1,5 +1,9 @@
 <h1 align="center"> Global Solution - Blue Future</h1>
 <h2 align="center">Entrega da disciplina de Computational Thinking With Python</h2>
+<div align="center">
+ <img src="https://github.com/Leandrns/gs-python/assets/162998083/d4653a2f-2e59-4b7d-bb59-ce9548b6d2d4">
+</div>
+
 
 ## Tecnologias
 ![pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white) ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
