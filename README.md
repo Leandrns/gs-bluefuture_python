@@ -23,6 +23,14 @@
 
 O sistema da plataforma do projeto foi desenvolvida no arquivo main.py na linguagem de programação Python, sendo executado diretamente no terminal.
 
+## Conhecimentos utilizados
+
+- Foram utilizadas os conhecimentos básicos de Python: variáveis, fStrings, condicionais e estruturas de repetição;
+
+- Manipulação de listas e strings: cidades, dados da qualidade da água, opções disponíveis e tipos de report;
+
+- Funções: Forçar a opção do usuário, verificar se é um número, manipular os reports e pegar os dados da boía para exibir na plataforma.  
+
 ## Instruções de uso
 ### Criando uma conta de usuário
 <p>O usuário deve informar se vai fazer uma conta pessoa física ou empresa;</p>
