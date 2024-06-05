@@ -78,7 +78,7 @@ def pag_dados():
             if ver_mais == 'não':
                 break
 
-def pag_solucionar_reports():
+def pag_solucionar_reports(agente):
     print("Bem-vindo(a) à página de Solucionar Reports")
     opcoes = ['sim', 'não']
     continuar = forca_opcao(opcoes, "Você deseja continuar nessa página? [sim][não]\n-> ")
@@ -103,7 +103,7 @@ def pag_solucionar_reports():
         qntd_colaboradores = verifica_numero("Quantos colaboradores estarão presentes?\n-> ")
 
         print(f"Você irá resolver o Report {escolha_report}, na data {data}, com {qntd_colaboradores} colaboradores!\n"
-              f"Obrigado por ajudar os oceanos, {username}!")
+              f"Obrigado por ajudar os oceanos, {agente}!")
 
 print("====== Seja bem-vindo(a) ao Sea Connect! ======")
 tipos_cadastro = ["Pessoa Física", "Empresa"]
@@ -198,7 +198,7 @@ if tipo_cadastro == '1':
                       f"\nObrigado por ajudar os oceanos, {username}!")
 
         elif pagina == '2':     # Solucionando um report
-            pag_solucionar_reports()
+            pag_solucionar_reports(username)
 
         else:       # Acessando os dados sobre os oceanos
             pag_dados()
@@ -247,7 +247,7 @@ else:
         pagina = forca_opcao(paginas_num, f"O que deseja fazer, {nome_empresa}?\n-> ")
 
         if pagina == '1':
-            pag_solucionar_reports()
+            pag_solucionar_reports(nome_empresa)
 
         else:
             pag_dados()
