@@ -10,17 +10,20 @@
 <p>A falta de conscientização da população sobre os oceanos é uma questão crucial que contribui para a falta de engajamento na preservação e proteção dos ecossistemas marinhos. Para abordar esse desafio, surge o SeaConnect, uma plataforma na qual a população e as empresas que estão situadas em regiões próximas ao mar possam se conectar. A plataforma apresenta um recurso comum a todos os usuários: uma visualização de dados coletados de diferentes pontos do oceano através de boias oceânicas e esses dados são tratados e publicados na plataforma em formas de visualizações interativas e intuitivas.</p>
 
 ## Funcionalidades
-- Sistema de ocorrências de pontos de poluição em regiões beira-mar com a seguinte estrutura: título da ocorrência; descrição; local; e anexos (fotos/vídeos). 
+- Sistema de ocorrências de pontos de poluição em regiões beira-mar com a seguinte estrutura: título da ocorrência; descrição; local; e anexos (fotos/vídeos); 
 
-- As empresas cadastradas na plataforma têm a possibilidade de ir ao local de uma ocorrência e resolvê-la, criando um portfólio de contribuições ao cuidado dos oceanos
+- As empresas cadastradas na plataforma têm a possibilidade de ir ao local de uma ocorrência e resolvê-la, criando um portfólio de contribuições ao cuidado dos oceanos;
 
-- Tanto o desempenho das empresas quanto o dos usuários da comunidade são medidos em forma de pontos e expostos em rankings dentro da plataforma, visíveis para qualquer usuário.
-
-- Os usuários da comunidade podem gerar uma ocorrência ou contribuir resolvendo aquele problema, como a retirada de resíduos plásticos da areia de uma praia, criando um portfólio pessoal e ganhando maior pontuação no ranking.
+- Os usuários da comunidade podem gerar uma ocorrência ou contribuir resolvendo aquele problema, como a retirada de resíduos plásticos da areia de uma praia.
  
 
-## Plataforma
-#### O sistema da plataforma do projeto foi desenvolvida em Python, sendo executado diretamente no terminal.
+## Sistema
+É necessário o Python instalado em seu sistema. Você pode baixá-lo [aqui](https://www.python.org/downloads/)
+
+
+O sistema da plataforma do projeto foi desenvolvida no arquivo main.py na linguagem de programação Python, sendo executado diretamente no terminal.
+
+## Instruções de uso
 ### Criando uma conta de usuário
 <p>O usuário deve informar se vai fazer uma conta pessoa física ou empresa;</p>
 
@@ -43,11 +46,12 @@
 ### Página inicial 
 - Na página inicial de pessoa física, estão disponíveis as opções: 1 - Criar Report, 2 - Solucionar Report, 3 - Acessar dados sobre os oceanos;
 - Na página inicial de empresa, estão disponíveis as opções: 1 - Solucionar Report 2 - Acessar dados sobre os oceanos.
+- O usuário digitará o número da página que deseja acessar.
 
 ### Página criar report
 - Ao acessar a página de criar reports, você deve informar o título, local, descrição e imagem/vídeo para o report;
 - A inserção de imagem/vídeo é simbólica nessa aplicação;
-- Após preencher, o usuário poderá visualizar a prévia do report, podendo edidar algum dado antes de enviar;
+- Após preencher, o usuário poderá visualizar a prévia do report, podendo editar algum dado antes de enviar;
 <p> O usuário pode voltar para página inicial ou sair do sistema.</p>
 
 ### Página de solucionar reports
@@ -57,13 +61,13 @@
 <p> O usuário pode voltar para página inicial ou sair do sistema.</p>
 
 ### Página de dados
-#### O usuário escolhe uma cidade (1 - Santos | 2 - Vitória | 3 - Balneário Camboriú | 4 - Salvador) e poderá conferir os seguintes dados:
+#### O usuário escolhe o número da cidade (1 - Santos | 2 - Vitória | 3 - Balneário Camboriú | 4 - Salvador) e poderá conferir os seguintes dados:
 
 - Nome da cidade escolhida;
 - Nível de oxigênio dissolvido: caso esteja entre 5mg/L e 6mg/L, o estado está OK;
 - pH:  caso esteja entre  8 e 8.3, o pH está OK;
 - Temperatura:  caso esteja entre 25°C e 27°C, a temperatura está OK;
-- Turbidez: caso esteja menor que 50NTU o estado está OK;
+- Turbidez: caso esteja menor que 50 NTU o estado está OK;
 - Salinidade: caso esteja entre 33% e 37%, o estado está OK;
 - Quantidade de microplástios na água:  caso esteja menor de 300g o estado está OK.
 <p>Caso algum dado fique fora da normalidade, aparecerá o estado RUIM.</p>
