@@ -1,10 +1,13 @@
-<h1 align="center"> Sistema da plataforma em Python do projeto para a Global Solution</h1>
-<h2 align="center">Grupo SeaConnect | 1°ESA</h2>
+<h1 align="center"> Global Solution - Blue Future</h1>
+<h2 align="center">Entrega da disciplina de Computational Thinking With Python</h2>
 
-#### Integrantes:
-<p>Caio Alexandre dos Santos - RM:558460</p>
-<p>Leandro do Nascimento Souza - RM:558893</p>
-<p>Rafael de Mônaco Maniezo - RM:556079</p>
+## Tecnologias
+![pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white) ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+## Integrantes:
+<p>Caio Alexandre dos Santos - RM: 558460</p>
+<p>Leandro do Nascimento Souza - RM: 558893</p>
+<p>Rafael de Mônaco Maniezo - RM: 556079</p>
 
 ## Sobre o projeto
 <p>A falta de conscientização da população sobre os oceanos é uma questão crucial que contribui para a falta de engajamento na preservação e proteção dos ecossistemas marinhos. Para abordar esse desafio, surge o SeaConnect, uma plataforma na qual a população e as empresas que estão situadas em regiões próximas ao mar possam se conectar. A plataforma apresenta um recurso comum a todos os usuários: uma visualização de dados coletados de diferentes pontos do oceano através de boias oceânicas e esses dados são tratados e publicados na plataforma em formas de visualizações interativas e intuitivas.</p>
@@ -17,11 +20,10 @@
 - Os usuários da comunidade podem gerar uma ocorrência ou contribuir resolvendo aquele problema, como a retirada de resíduos plásticos da areia de uma praia.
  
 
-## Sistema
-É necessário o Python instalado em seu sistema. Você pode baixá-lo [aqui](https://www.python.org/downloads/)
+## Requisitos
+- É necessário o Python instalado em seu sistema. Você pode baixá-lo [aqui](https://www.python.org/downloads/)
 
-
-O sistema da plataforma do projeto foi desenvolvida no arquivo main.py na linguagem de programação Python, sendo executado diretamente no terminal.
+- O sistema da plataforma do projeto foi desenvolvida no arquivo main.py na linguagem de programação Python, sendo executado diretamente no terminal.
 
 ## Conhecimentos utilizados
 
@@ -38,17 +40,16 @@ O sistema da plataforma do projeto foi desenvolvida no arquivo main.py na lingua
 #### Caso o usuário que está se cadastrando for pessoa física, ele deve fornecer os seguintes dados:
 
 - Nome completo do usuário; 
-- Email com o formato padrão de nome@dominio.com e não deve estar associado a outro usuário cadastrado; 
+- Email com o formato padrão de nome@dominio e não deve estar associado a outro usuário cadastrado; 
 - Telefone válido;
 - Nome de usuário, devendo ser único entre todos os usuários com pelo menos 5 caracteres; 
 - Criar senha de acesso com pelo menos oito caracteres e depois confirmar-la;
 
- 
-#### Caso o usuário que está se cadastrando for uma empresa, ele deve fornecer os seguintes dados:
+<h4> Caso o usuário que está se cadastrando for uma empresa, ele deve fornecer os seguintes dados:</h4>
 
 - Nome da empresa;
 - CNPJ válido com 14 caracteres;
-- Email da empresa deve seguir o formato padrão de nome@dominio.com e não deve estar associado a outro usuário cadastrado;
+- Email da empresa deve seguir o formato padrão de nome@dominio e não deve estar associado a outro usuário cadastrado;
 - Criar senha de acesso com pelo menos oito caracteres e depois confirmar-la;
 
 ### Página inicial 
@@ -69,7 +70,7 @@ O sistema da plataforma do projeto foi desenvolvida no arquivo main.py na lingua
 <p> O usuário pode voltar para página inicial ou sair do sistema.</p>
 
 ### Página de dados
-#### O usuário escolhe o número da cidade (1 - Santos | 2 - Vitória | 3 - Balneário Camboriú | 4 - Salvador) e poderá conferir os seguintes dados:
+<h4> O usuário escolhe o número da cidade (1 - Santos, 2 - Vitória, 3 - Balneário Camboriú, 4 - Salvador) e poderá conferir os seguintes dados:</h4>
 
 - Nome da cidade escolhida;
 - Nível de oxigênio dissolvido: caso esteja entre 5mg/L e 6mg/L, o estado está OK;
